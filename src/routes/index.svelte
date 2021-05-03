@@ -6,10 +6,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Tailwind CSS Skeleton</title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="author" content="" />
+  <title>AH Karaoke</title>
+  <meta
+    name="description"
+    content="Buy High Quality Karaoke With Just One Call or Message on AH Karaoke With Over 3000+ Karaokes."
+  />
+  <meta
+    name="keywords"
+    content="karaoke, ah karaoke, ahk, high quality karaoke, buy karaoke, "
+  />
+  <meta name="author" content="Anil Hemnani" />
 
   <!-- Font Awesome if you need it
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
@@ -26,7 +32,7 @@
   <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
 </svelte:head>
 
-<main transition:fade>
+<main>
   <div class="container mx-auto h-screen">
     <div class="text-center px-3 lg:px-0" style="padding-top:3em;">
       <h1
@@ -39,12 +45,19 @@
       >
         Buy With <strong
           ><a
+            style="text-decoration:underline;"
             target="_blank"
             href="https://api.whatsapp.com/send?phone=919329023244"
             >Whatsapp +919329023244</a
           ></strong
         >
-        Or <br /> Call And Email Us at hindikaraoke4@gmail.com
+        Or <br /> Call And Email Us at
+        <a
+          style="text-decoration:underline;"
+          target="_blank"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=hindikaraoke4@gmail.com"
+          >hindikaraoke4@gmail.com</a
+        >
       </p>
 
       <button
@@ -592,7 +605,7 @@
                 Exclusive & Customised Karaoke
               </div>
               <ul class="w-full text-center text-base font-bold">
-                <li class="text-2xl border-b py-4">Price Is Variable</li>
+                <li class="text-2xl border-b py-4">Depends On The Song</li>
                 <!-- <li class="text-2xl border-b py-4">$4 USD</li> -->
                 <li class="text-xl border-b py-4">Within 1 Day</li>
                 <li class="text-xl border-b py-4">
@@ -681,7 +694,7 @@
           <div class="flex-1 mb-6">
             <a
               class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
-              href="#"
+              href="/"
             >
               <svg
                 class="h-6 w-6 inline-block"
@@ -695,100 +708,23 @@
           </div>
 
           <div class="flex-1">
-            <p class="uppercase font-extrabold text-gray-500 md:mb-6">Links</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >FAQ</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Help</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Support</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase font-extrabold text-gray-500 md:mb-6">Legal</p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Terms</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Privacy</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
             <p class="uppercase font-extrabold text-gray-500 md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/anil.hemnani1"
+                  target="_blank"
                   class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >Facebook</a
                 >
               </li>
+
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Linkedin</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
+                  href="https://twitter.com/anil_hemnani"
+                  target="_blank"
                   class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >Twitter</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="flex-1">
-            <p class="uppercase font-extrabold text-gray-500 md:mb-6">
-              Company
-            </p>
-            <ul class="list-reset mb-6">
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Official Blog</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >About Us</a
-                >
-              </li>
-              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a
-                  href="#"
-                  class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
-                  >Contact</a
                 >
               </li>
             </ul>
