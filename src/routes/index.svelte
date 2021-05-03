@@ -20,15 +20,15 @@
   <!-- Font Awesome if you need it
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
   -->
-  <link
+  <!-- <link
     href="https://unpkg.com/tailwindcss/dist/tailwind.min.css"
     rel="stylesheet"
   />
-  <!--Replace with your tailwind.css once created-->
-  <link
+   <link
     href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css"
     rel="stylesheet"
-  />
+  /> -->
+
   <!--Tailwind Custom Forms - use to standardise form fields - https://github.com/tailwindcss/custom-forms-->
 </svelte:head>
 
@@ -59,12 +59,13 @@
           >hindikaraoke4@gmail.com</a
         >
       </p>
-
-      <button
-        class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
-      >
-        Karaoke List
-      </button>
+      <a sveltekit:prefetch class="text-blue-600 underline" href="/list">
+        <button
+          class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
+        >
+          Karaoke List
+        </button>
+      </a>
       <!-- <a
         href="#"
         class="inline-block mx-auto lg:mx-0 hover:underline bg-transparent text-gray-600 font-extrabold my-2 md:my-6 py-2 lg:py-4 px-8"
@@ -679,12 +680,13 @@
       <h3 class="my-4 text-3xl font-extrabold">
         Search Your Favourite Karaoke Here
       </h3>
-
-      <button
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded my-6 py-4 px-8 shadow-lg"
-      >
-        Search Karaoke
-      </button>
+      <a sveltekit:prefetch href="/list">
+        <button
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded my-6 py-4 px-8 shadow-lg"
+        >
+          Search Karaoke
+        </button>
+      </a>
     </section>
 
     <!--Footer-->
@@ -735,13 +737,8 @@
   </div>
 </main>
 
-<style>
+<style style lang="postcss">
   @import url("https://rsms.me/inter/inter.css");
-  html {
-    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
 
   .gradient {
     background-image: linear-gradient(-225deg, #cbbacc 0%, #2580b3 100%);
