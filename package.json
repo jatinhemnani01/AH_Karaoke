@@ -5,7 +5,7 @@
 		"dev": "svelte-kit dev --host",
 		"build": "svelte-kit build",
 		"start": "svelte-kit start",
-		"preview":"svelte-kit preview --host"
+		"preview": "svelte-kit preview --host"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "next",

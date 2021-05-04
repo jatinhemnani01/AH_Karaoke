@@ -4,11 +4,11 @@ const pkg = require("./package.json");
 
 /** @type {import('@sveltejs/kit').Config} */
 module.exports = {
-	preprocess: [
-		preprocess({
-			postcss: true
-		}),
-	],
+  preprocess: [
+    preprocess({
+      postcss: true,
+    }),
+  ],
   kit: {
     // By default, `npm run build` will create a standard Node app.
     // You can create optimized builds for different platforms by

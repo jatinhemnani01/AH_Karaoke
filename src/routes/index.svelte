@@ -1,5 +1,7 @@
 <script context="module">
   export const prerender = true;
+  export const router = false;
+  export const hydrate = false;
 </script>
 
 <svelte:head>
@@ -59,7 +61,7 @@
           >hindikaraoke4@gmail.com</a
         >
       </p>
-      <a sveltekit:prefetch class="text-blue-600 underline" href="/list">
+      <a class="text-blue-600 underline" href="/list">
         <button
           class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
         >
@@ -754,29 +756,6 @@
 * Contribute: https://gist.github.com/jarthod/8719db9fef8deb937f4f
 * Live example: https://updown.io
 */
-
-  .browser-mockup {
-    border-top: 2em solid rgba(230, 230, 230, 0.7);
-    position: relative;
-    height: 60vh;
-  }
-
-  .browser-mockup:before {
-    display: block;
-    position: absolute;
-    content: "";
-    top: -1.25em;
-    left: 1em;
-    width: 0.5em;
-    height: 0.5em;
-    border-radius: 50%;
-    background-color: #f44;
-    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
-  }
-
-  .browser-mockup > * {
-    display: block;
-  }
 
   /* Custom code for the demo */
 </style>
